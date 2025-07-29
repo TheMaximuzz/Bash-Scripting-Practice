@@ -10,10 +10,10 @@ echo "This command will calculate the difference between the square of the sum a
 
 [[ $# -ne 2 ]] && usage && exit 1
 
-[[ $2 -lt 0 ]] && echo "Use positive number, not $1" && usage && exit 2
+[[ $2 -lt 0 ]] && echo "Use positive number, not $2" && usage && exit 2
 
 if ! [[ $2 =~ ^[0-9]+$ ]]; then
-    echo "Use positive number, not $1"
+    echo "Use positive number, not $2"
     usage
     exit 3
 fi
