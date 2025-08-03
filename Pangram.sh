@@ -4,7 +4,7 @@
  #
  #For this exercise, a sentence is a pangram if it contains each of the 26 letters in the English alphabet.
 
- #!/bin/bash
+#!/bin/bash
 
 low=$(echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd 'a-z')
 
